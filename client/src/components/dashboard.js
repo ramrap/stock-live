@@ -6,7 +6,7 @@ import StocksList from "./StocksList";
 import StocksGraph from "./StocksGraph";
 
 let socket;
-const ENDPOINT = 'http://localhost:3001';
+const ENDPOINT = 'https://stock-live-app.herokuapp.com/';
 
 export default function DashBoard() {
     const [ stocks, setStocks ] = React.useState({})
