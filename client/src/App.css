@@ -1,0 +1,18 @@
+.selected{
+    background: #4dabf559;
+    box-shadow: 1px 1px 5px #5555557d inset;
+}
+ 
+tbody tr, button{
+    cursor: pointer;
+}
+
+td.updated_at{
+    font-size: 12px;
+}
+  
+.icon.market-trend{
+    background: #e2e2e2;
+    border-radius: 5px;
+    margin-left: 3px;
+}
